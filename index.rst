@@ -72,3 +72,43 @@
    KE0076 Keyes GUVA-S12SD 紫外线传感器.md
    KE0077 Keyes 激光头模块.md
    KE0078 Keyes RFID-RC522 射频模块.md
+   KE0079 Keyes ULN2003 步进电机驱动板.md
+   KE0090 Keyes A3967 步进电机驱动板.md
+   KE0091 Keyes LM2596S DC降压电源模块.md
+   KE0092 Keyes Player Mini MP3 模块.md
+   KE0103 Keyes LED灯串驱动模块.md
+   KE0105 Keyes LED灯串驱动模块 + 灯带套件.md
+   KE0106 Keyes RFID-RC522射频模块 + 钥匙扣 + 白卡套件.md
+   KE0107 Keyes LMV358 运算放大模块.md
+   KE0108 Keyes PCF8563 时钟模块.md
+   KE0117 Keyes 薄膜压力传感器.md
+   KE0118 Keyes 红绿灯模块.md
+   KE0127 Keyes DHT12温湿度模块.md
+   KE0143 Keyes BMP280模块 (红色环保) 综合使用说明.md
+   KE0145 Keyes 10mm红绿灯模块 (焊盘孔) 红色环保 综合使用说明.md
+   KE0146 Keyes 绿色LED模块 (红色环保) 使用说明.md
+   KE0147 Keyes 红色LED模块 (红色环保) 使用说明.md
+   KE0148 Keyes 黄色LED模块 (红色环保) 使用说明.md
+   KE0150 Keyes 按键模块（焊盘孔）红色 使用说明.md
+   KE0151 Keyes 按键传感器（焊盘孔）红色绿色按键帽 使用说明.md
+   KE0152 Keyes 3路IRF540NS大电流MOS管模块 使用说明.md
+   KE0154 Keyes IIC接口转换扩展板 使用说明.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
