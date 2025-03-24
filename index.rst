@@ -94,9 +94,20 @@
    KE0152 Keyes 3路IRF540NS大电流MOS管模块 使用说明.md
    KE0154 Keyes IIC接口转换扩展板 使用说明.md
    KE0155 Keyes MPU-6050 Balance Car Shield V3平衡车扩展板 使用说明.md
+   KE0157 Keyes YX5200-24SS MP3模块 综合使用说明.md
+   KE0158 Keyes 电子墨水屏 1.54寸 使用说明.md
+   KE0159 Keyes 电子墨水屏 2.13寸 使用说明.md
+   KE0160 Keyes 圆形TFT LCD智能手表液晶屏模块 使用说明.md
+   KE0161 Keyes Connectors 循迹传感器 综合使用说明.md
+   KE0164 Keyes YX5200-24SS MP3模块+喇叭+USB线材 套件.md
+   KE0169 Keyes 3V 单路继电器模块.md
+   KE0172 Keyes XHT11 温湿度传感器综合指南.md
+   KE0174 Keyes XHT11 温湿度传感器综合指南.md
+   KE0176 Keyes 按键模块综合指南.md
+   KE0177 Keyes 蓝色 LED 模块综合指南.md
+   KE0178 Keyes TM1637 4位数码管模块综合指南.md
 
 
-   
 
 
 
