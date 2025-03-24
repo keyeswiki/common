@@ -84,16 +84,19 @@
    KE0117 Keyes 薄膜压力传感器.md
    KE0118 Keyes 红绿灯模块.md
    KE0127 Keyes DHT12温湿度模块.md
-   KE0143 Keyes BMP280模块 (红色环保) 综合使用说明.md
-   KE0145 Keyes 10mm红绿灯模块 (焊盘孔) 红色环保 综合使用说明.md
-   KE0146 Keyes 绿色LED模块 (红色环保) 使用说明.md
-   KE0147 Keyes 红色LED模块 (红色环保) 使用说明.md
-   KE0148 Keyes 黄色LED模块 (红色环保) 使用说明.md
-   KE0150 Keyes 按键模块（焊盘孔）红色 使用说明.md
-   KE0151 Keyes 按键传感器（焊盘孔）红色绿色按键帽 使用说明.md
+   KE0143 Keyes BMP280模块综合使用说明.md
+   KE0145 Keyes 10mm红绿灯模块综合使用说明.md
+   KE0146 Keyes 绿色LED模块使用说明.md
+   KE0147 Keyes 红色LED模块使用说明.md
+   KE0148 Keyes 黄色LED模块使用说明.md
+   KE0150 Keyes 按键模块使用说明.md
+   KE0151 Keyes 按键传感器红色绿色按键帽 使用说明.md
    KE0152 Keyes 3路IRF540NS大电流MOS管模块 使用说明.md
    KE0154 Keyes IIC接口转换扩展板 使用说明.md
+   KE0155 Keyes MPU-6050 Balance Car Shield V3平衡车扩展板 使用说明.md
 
+
+   
 
 
 
