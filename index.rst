@@ -53,22 +53,22 @@
    KE0057 Keyes MQ-2 烟雾传感器模块.md
    KE0058 Keyes MQ-3 酒精传感器模块.md
    KE0059 Keyes MQ-4 天然气甲烷传感器模块.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   KE0060 Keyes MQ-5 液化气、煤气传感器模块.md
+   KE0061 Keyes MQ-6 液化气、异丁烷传感器模块.md
+   KE0062 Keyes MQ-7 一氧化碳传感器模块.md
+   KE0063 Keyes MQ-8 氢气传感器模.md
+   KE0064 Keyes MQ-135 空气质量传感器模块.md
+   KE0065 Keyes TEMT6000 光线传感器模块.md
+   KE0066 Keyes DHT22 温湿度传感器模块.md
+   KE0067 Keyes SHT10 温湿度传感器模块.md
+   KE0068 Keyes 巡线传感器模块.md
+   KE0069 Keyes 光折断传感器模块.md
+   KE0070 Keyes 魔术光杯传感器模块.md
+   KE0071 Keyes 3231 时钟模块.md
+   KE0072 Keyes DS3234 高精度时钟模块.md
+   KE0073 Keyes 手指测心跳模块.md
+   KE0074 Keyes TCS3200 颜色传感器.md
+   KE0075 Keyes MPU6050 加速度模块.md
+   KE0076 Keyes GUVA-S12SD 紫外线传感器.md
+   KE0077 Keyes 激光头模块.md
+   KE0078 Keyes RFID-RC522 射频模块.md
