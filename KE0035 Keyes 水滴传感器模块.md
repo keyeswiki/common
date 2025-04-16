@@ -122,7 +122,7 @@ void loop() {
 以下是一些有助于开发的参考链接：
 - [Arduino官网](https://www.arduino.cc/)
 - [Keyes官网](http://www.keyes-robot.com/)
-- [水滴传感器工作原理介绍](https://en.wikipedia.org/wiki/Water_sensor)
+- [水滴传感器工作原理介绍](https://wenku.baidu.com/view/380f6381ecf9aef8941ea76e58fafab069dc44ee.html)
 
 ---
 
