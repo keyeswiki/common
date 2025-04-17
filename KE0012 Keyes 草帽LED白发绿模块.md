@@ -1,4 +1,4 @@
-# KE0012 Keyes 草帽LED白发绿模块详细教程
+# KE0012 Keyes 草帽LED白发绿模块
 
 ![image-20250312152912501](media/image-20250312152912501.png)
 

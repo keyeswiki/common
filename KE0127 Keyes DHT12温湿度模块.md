@@ -1,4 +1,4 @@
-# KE0127 Keyes DHT12温湿度模块 详细教程
+# KE0127 Keyes DHT12温湿度模块 
 
 ![image-20250317114905760](media/image-20250317114905760.png)
 

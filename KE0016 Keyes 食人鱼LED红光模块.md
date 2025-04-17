@@ -1,4 +1,4 @@
-# KE0016 Keyes 食人鱼LED红光模块详细教程
+# KE0016 Keyes 食人鱼LED红光模块
 
 ![image-20250312153407351](media/image-20250312153407351.png)
 

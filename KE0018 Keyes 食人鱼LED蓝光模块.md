@@ -1,4 +1,4 @@
-# KE0018 Keyes 食人鱼LED蓝光模块详细教程
+# KE0018 Keyes 食人鱼LED蓝光模块
 
 ![image-20250312153417077](media/image-20250312153417077.png)
 
