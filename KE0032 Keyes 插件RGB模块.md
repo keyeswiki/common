@@ -1,4 +1,4 @@
-# **KE0032 Keyes 插件RGB模块教程**
+# KE0032 Keyes 插件RGB模块教程
 
 ![image-20250312154608678](media/image-20250312154608678.png)
 

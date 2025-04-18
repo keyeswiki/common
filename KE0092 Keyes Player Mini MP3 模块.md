@@ -1,4 +1,4 @@
-# **KE0092 Keyes Player Mini MP3模块教程**
+# KE0092 Keyes Player Mini MP3模块教程
 
 ![image-20250313082502268](media/image-20250313082502268.png)
 

@@ -1,4 +1,4 @@
-# **KE0031 Keyes 贴片RGB模块**
+# KE0031 Keyes 贴片RGB模块
 
 ![image-20250312154526135](media/image-20250312154526135.png)
 

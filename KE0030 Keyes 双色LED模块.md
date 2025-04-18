@@ -1,4 +1,4 @@
-# **KE0030 Keyes双色LED模块教程**
+# KE0030 Keyes双色LED模块教程
 
 ![image-20250312154429430](media/image-20250312154429430.png)
 
