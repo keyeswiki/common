@@ -1,4 +1,4 @@
-# KE0019 Keyes 食人鱼LED黄光模块
+# KE0019 Keyes 食人鱼LED黄光模块详细教程
 
 ![image-20250312153420329](media/image-20250312153420329.png)
 

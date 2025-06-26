@@ -1,4 +1,4 @@
-# KE0127 Keyes DHT12温湿度模块 
+# KE0127 Keyes DHT12温湿度模块 详细教程
 
 ![image-20250317114905760](media/image-20250317114905760.png)
 
@@ -33,6 +33,8 @@ Keyes DHT12 温湿度传感器模块使用 **DHT12** 芯片，可通过 **I2C** 
 - DHT12 GND → Arduino GND  
 - DHT12 SCL → Arduino A5 (UNO 的 I2C SCL)  
 - DHT12 SDA → Arduino A4 (UNO 的 I2C SDA)
+
+![image-20250317114951262](media/image-20250317114951262.png)
 
 #### 提示  
 - 部分 Arduino 兼容板的 I2C 引脚位置可能不同，例如 Leonardo、Mega2560、ESP8266 等，需要查阅其 I2C 默认引脚位置。
@@ -80,14 +82,11 @@ void loop() {
 ### 4.1 单总线模式接线 (以 Arduino UNO 为例)
 - DHT12 VCC → Arduino 5V  
 - DHT12 GND → Arduino GND  
-- 模块上 DATA 焊盘 (SCL 或 SDA 那一针) → Arduino 数字引脚 (如 3)  
+- 模块上 DATA 焊盘 (SCL 或 SDA 那一针) → Arduino 数字引脚 (如 2 或 3)  
 - 根据需要在 DATA 和 VCC 间加上一个 **10kΩ 上拉电阻**（有些模块板上已自带）
 
 > 在单总线模式下，只需 3 根线：VCC、GND、DATA。  
 > 库中通常通过构造函数设定 “数据脚引脚号”，并在内部负责单线通信。
-
-![image-20250317114951262](media/image-20250317114951262.png)
-
 
 ### 4.2 单总线模式示例代码
 仍使用 [DHT12 库 by Rob Tillaart](https://github.com/RobTillaart/DHT12)，但以 **单总线** 构造函数方式初始化：
@@ -95,8 +94,8 @@ void loop() {
 ```c
 #include "DHT12.h"
 
-// 声明对象时指定单总线数据引脚 (如 3)
-DHT12 dht12(3);  // Single-Wire 模式 -> 数据脚接 D3
+// 声明对象时指定单总线数据引脚 (如 2)
+DHT12 dht12(2);  // Single-Wire 模式 -> 数据脚接 D2
 
 void setup() {
   Serial.begin(9600);
@@ -149,5 +148,3 @@ void loop() {
 - [DHT12 Arduino 库 (GitHub)](https://github.com/RobTillaart/DHT12)
 
 如有疑问，欢迎至论坛或官方平台提问，祝开发顺利！
-
-

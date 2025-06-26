@@ -1,4 +1,4 @@
-# KE0015 Keyes 草帽LED白发白模块
+# KE0015 Keyes 草帽LED白发白模块详细教程
 
 ![image-20250312152912501](media/image-20250312152912501.png)
 

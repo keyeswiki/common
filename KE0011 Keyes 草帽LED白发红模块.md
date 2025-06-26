@@ -1,4 +1,4 @@
-# KE0011 Keyes 草帽LED白发红模块
+# KE0011 Keyes 草帽LED白发红模块详细教程
 
 ![image-20250312152912501](media/image-20250312152912501.png)
 

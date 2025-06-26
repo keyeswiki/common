@@ -12,7 +12,7 @@ Thumbs.db
 *.flv
 *.log
 .vscode
-_build
+.DS_Store
 
 /tmpX/
 /_build/

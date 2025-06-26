@@ -1,4 +1,4 @@
-# KE0020 Keyes 食人鱼LED白光模块
+# KE0020 Keyes 食人鱼LED白光模块详细教程
 
 ![image-20250312153423446](media/image-20250312153423446.png)
 

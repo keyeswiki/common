@@ -1,4 +1,4 @@
-# KE0017 Keyes 食人鱼LED绿光模块
+# KE0017 Keyes 食人鱼LED绿光模块详细教程
 
 ![image-20250312153414247](media/image-20250312153414247.png)
 
