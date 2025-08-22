@@ -24,7 +24,7 @@ KE0019 Keyes 食人鱼LED黄光模块是一款基于高亮度食人鱼LED的模�
 ## **3. 规格参数**
 
 - **工作电压**：3.3V-5V（DC）  
-- **接口类型**：3PIN 接口（VCC、GND、信号）  
+- **接口类型**：3PIN 接口（VCC、GND、S）  
 - **输入信号**：数字信号  
 - **LED 类型**：食人鱼LED  
 - **发光颜色**：黄光  
@@ -98,18 +98,5 @@ void loop()
 4. **固定模块**：使用定位孔固定模块时，避免用力过大损坏模块。  
 5. **环境要求**：避免在高温或潮湿环境下使用模块，以确保其稳定性和寿命。  
 
----
 
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-  提供 Arduino IDE 下载、官方教程和示例代码。  
-- **Keyes 官网**：http://www.keyes-robot.com/ 
-  提供 Keyes 产品的详细信息和技术支持。  
-- **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-  提供丰富的 Arduino 教程，适合初学者和进阶用户。  
-
----
-
-KE0019 Keyes 食人鱼LED黄光模块是一款简单易用的 LED 模块，适合初学者学习 Arduino 编程和电子电路设计，也适用于各种 DIY 项目和教学实验。通过其高亮度和稳定性，用户可以轻松实现各种创意项目。
 

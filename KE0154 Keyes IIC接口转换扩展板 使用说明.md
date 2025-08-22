@@ -88,10 +88,6 @@ void loop() {
 ---
 
 ## 5. 参考链接
-- **Arduino 官方文档**  
-  - [Arduino 官方](https://www.arduino.cc/)  
-- **Keyes 相关**  
-  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
   - [Arduino IDE 下载](https://www.arduino.cc/en/software)  
   - [I2C 通信指南](https://learn.adafruit.com/adafruit-i2c-lcd-backpack)  

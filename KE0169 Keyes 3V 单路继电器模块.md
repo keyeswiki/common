@@ -96,8 +96,6 @@ void loop() {
 
 ## 10.参考链接
 
-- [Keyes 官方网站](http://www.keyes-robot.com/)  
 - [继电器模块使用指南](https://www.electronicwings.com/nrf/hc-06-bluetooth-module)  
-- [Arduino 官方网站](https://www.arduino.cc)  
 
 如有更多疑问，请联系 Keyes 官方客服或加入相关创客社区交流。祝使用愉快！

@@ -77,10 +77,6 @@ void loop() {
 ---
 
 ## 7. 参考链接
-- **Arduino 官方文档**  
-  - [Arduino 官方](https://www.arduino.cc/)  
-- **Keyes 相关**  
-  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
   - [Arduino IDE 下载](https://www.arduino.cc/en/software)  
   - [LED 使用指南](https://learn.adafruit.com/leds)  

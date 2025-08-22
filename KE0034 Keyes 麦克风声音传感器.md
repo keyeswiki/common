@@ -121,8 +121,6 @@ void loop() {
 ## **11. 参考链接**
 
 以下是一些有助于开发的参考链接：
-- [Arduino官网](https://www.arduino.cc/)
-- [Keyes官网](http://www.keyes-robot.com/)
 - [麦克风工作原理介绍](https://en.wikipedia.org/wiki/Microphone)
 
 ---

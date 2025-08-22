@@ -1,6 +1,6 @@
 # **KE0030 Keyes双色LED模块教程**
 
-![image-20250312154429430](media/image-20250312154429430.png)
+![](media/image-20250312154429430.png)
 
 ## **1. 模块介绍**
 
@@ -130,7 +130,5 @@ void loop() {
 ## **10. 参考链接**
 
 以下是一些有助于开发的参考链接：
-- [Arduino官网](https://www.arduino.cc/)
-- [Keyes官网](http://www.keyes-robot.com/)
 - [Arduino PWM教程](https://www.arduino.cc/en/Tutorial/PWM)
 

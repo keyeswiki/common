@@ -58,8 +58,23 @@
 
 ## 7. 示例代码
 
-使用 [RTClib](https://github.com/adafruit/RTClib) 或其他 PCF8563 库均可快速实现读取时间。  
-下面以示例展示如何读取/设置时间（基于 Adafruit RTClib 可能需要手动修改里面 PCF8563 支持或使用其他 PCF8563 专用库）。
+**安装RTClib库**
+
+- 打开Arduino IDE，点击“项目”，选择“管理库”。
+
+  ![](./media/image-20250813095958449.png)
+
+- 方框输入“RTClib”，选择“RTClib”，点击“安装”。
+
+![](./media/image-20250813174349287.png)
+
+- 如果出现以下界面，选择“全部安装”。
+
+  ![](./media/image-20250813174408778.png)
+
+- 安装成功界面。
+
+![](./media/image-20250813135635410.png)
 
 ```cpp
 #include <Wire.h>
@@ -102,8 +117,21 @@ void loop() {
 }
 ```
 
-> 提示：如果 `RTClib` 不支持 PCF8563，请使用其他专门的库（例如 `PCF8563 library`）或自己编写 I2C 读写函数来操作寄存器。
+**如果安装RTClib库，上传代码后报错(代码上传成功不用安装)，请按如下安装Wire库**
 
+- 下载库文件：[Wire](./资料/Wire.7z)
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250813101211773.png)
+
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  ![](./media/image-20250813143205262.png)
+
+- 安装成功界面。
+- ![](./media/image-20250813135635410.png)
 
 ## 8. 实验现象
 
@@ -127,8 +155,6 @@ void loop() {
 
 ## 10. 参考链接
 
-- [Arduino 官网](https://www.arduino.cc/)  
-- [Keyes 官网](http://www.keyes-robot.com/)  
 - [PCF8563 Datasheet (NXP)](https://www.nxp.com/documents/data_sheet/PCF8563.pdf)  
 - [Adafruit RTClib](https://github.com/adafruit/RTClib)  
 - [PCF8563 Arduino Library](https://github.com/Thomsen/PCF8563)  

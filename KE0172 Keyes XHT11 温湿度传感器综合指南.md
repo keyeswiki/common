@@ -56,7 +56,27 @@ XHT11 温湿度传感器通过内部的数字信号处理器将环境的温度�
 ---
 
 ## 7. 示例代码
+
+**安装库**
+
+- 打开Arduino IDE，点击“项目”，选择“管理库”。
+
+  ![](./media/image-20250813095958449.png)
+
+- 方框输入“DHT sensor library”，选择“DHT sensor library”，点击“安装”。
+
+  ![](./media/image-20250813152327728.png)
+
+- 如果出现以下界面，选择“全部安装”。
+
+  ![](./media/image-20250814114749867.png)
+
+- 安装成功界面。
+
+  ![](./media/image-20250813135635410.png)
+
 以下是一个简单的示例代码，用于读取 XHT11 温湿度传感器的数据：
+
 ```cpp
 #include "DHT.h"
 
@@ -92,9 +112,10 @@ void loop() {
 }
 ```
 
----
+
 
 ## 8. 实验现象
+
 按照连接图接好线并烧录代码，上电后，串口监视器将显示实时的温度和湿度数据。每 2 秒更新一次。
 
 ![image-20250318090904041](media/image-20250318090904041.png)
@@ -109,8 +130,6 @@ void loop() {
 ---
 
 ## 10. 参考链接
-- [Keyes 官方网站](http://www.keyes-robot.com/)  
 - [DHT 库 GitHub 页面](https://github.com/adafruit/DHT-sensor-library)  
-- [Arduino 官方网站](https://www.arduino.cc)  
 
 如有更多疑问，请联系 Keyes 官方客服或加入相关创客社区交流。祝使用愉快！

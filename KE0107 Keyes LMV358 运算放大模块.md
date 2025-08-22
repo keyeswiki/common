@@ -156,8 +156,6 @@ void loop() {
 
 ## 10. 参考链接
 
-- [Arduino 官网](https://www.arduino.cc/)  
-- [Keyes 官网](http://www.keyes-robot.com/)  
 - [LMV358芯片资料（德州仪器）](https://www.ti.com/product/LMV358)  
 - [运算放大器基础知识](https://www.electronics-tutorials.ws/opamp/op-amp-basics.html)  
 

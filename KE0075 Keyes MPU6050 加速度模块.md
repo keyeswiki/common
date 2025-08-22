@@ -137,7 +137,22 @@ void loop() {
 }
 ```
 
----
+**如果上传代码后报错，请按如下安装Wire库。**
+
+- 下载库文件：[Wire](./资料/Wire.7z)
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250813101211773.png)
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  ![](./media/image-20250813143205262.png)
+
+- 安装成功界面。
+- ![](./media/image-20250813135635410.png)
+
+**安装库后再上传一次代码。**
 
 ## **8. 实验现象**
 
@@ -167,8 +182,6 @@ void loop() {
 
 ## **10. 参考链接**
 
-- [Arduino 官网](https://www.arduino.cc/)
-- [Keyes 官网](http://www.keyes-robot.com/)
 - [MPU6050 数据手册](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/)
 - [MPU6050 Arduino 库](https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050)
 

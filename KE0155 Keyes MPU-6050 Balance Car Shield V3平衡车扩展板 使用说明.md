@@ -47,6 +47,19 @@ flowchart LR
 ---
 
 ## 5. 示例代码
+**安装库**
+
+- 打开Arduino IDE，点击“项目”，选择“管理库”。
+
+  ![](./media/image-20250813095958449.png)
+
+- 方框输入“MPU6050”，选择“MPU6050”，点击“安装”。
+
+  ![](./media/image-20250814101206815.png)
+
+- 安装成功界面。
+- ![](./media/image-20250813135635410.png)
+
 以下是使用 MPU-6050 传感器控制平衡车的示例代码：
 
 ```cpp
@@ -81,9 +94,23 @@ void loop() {
 }
 ```
 
----
+**如果安装MPU6050库，上传代码后报错(代码上传成功不用安装)，请按如下安装Wire库**
+
+- 下载库文件: [Wire](./资料/Wire.7z)
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250813101211773.png)
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  wire：![](./media/image-20250813143205262.png)
+
+- 安装成功界面。
+- ![](./media/image-20250813135635410.png)
 
 ## 6. 实验现象
+
 上传代码后，打开串口监视器，可以看到 MPU-6050 传感器的加速度和角速度数据。通过这些数据，可以实现对平衡车的控制和调节。
 
 ---
@@ -97,12 +124,8 @@ void loop() {
 ---
 
 ## 8. 参考链接
-- **Arduino 官方文档**  
-  - [Arduino 官方](https://www.arduino.cc/)  
 - **MPU-6050 数据手册**  
   - [MPU-6050 数据手册](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf)  
-- **Keyes 相关**  
-  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
   - [Arduino IDE 下载](https://www.arduino.cc/en/software)  
   - [MPU-6050 使用指南](https://learn.adafruit.com/adafruit-mpu6050-6-dof-accelerometer-and-gyroscope)  

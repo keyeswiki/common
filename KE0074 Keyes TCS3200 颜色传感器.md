@@ -96,9 +96,26 @@ TCS3200 是一种光到频率转换器，内置 4×4 的光电二极管阵列：
 
 ## **7. 示例代码**
 
+**安装TimerOne库**
+
+- 下载库文件：[TimerOne](./资料/KE0074.7z)
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250813101211773.png)
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  ![image-20250813164048184](./media/image-20250813164048184.png)
+
+- 安装成功界面。
+
+  ![](./media/image-20250813135635410.png)
+
+**代码示例**
+
 以下是用于测试 KE0074 模块的 Arduino 示例代码，检测颜色的 RGB 值并在串口监视器中显示。
 
-#### **代码示例**
 ```cpp
 #include <TimerOne.h> 
 
@@ -238,8 +255,6 @@ void loop() {
 
 ## **10. 参考链接**
 
-- [Arduino 官网](https://www.arduino.cc/)
-- [Keyes 官网](http://www.keyes-robot.com/)
 - [TCS3200 数据手册](https://www.ti.com/lit/ds/symlink/tcs3200.pdf)
 
 ---

@@ -88,7 +88,19 @@ RC522 芯片通过环形线圈（板载天线）产生 13.56MHz 射频场，当�
 
 ## 7. 示例代码
 
-下例展示基于 [MFRC522](https://github.com/miguelbalboa/rfid) 库读取卡片 UID 的方式。
+#### 安装MFRC522库
+
+- 打开Arduino IDE，点击“项目”，选择“管理库”。
+
+  ![](./media/image-20250813095958449.png)
+
+- 方框输入“MFRC522”，选择“MFRC522”，点击“安装”。
+
+  ![](./media/image-20250813171122672.png)
+
+- 安装成功界面。
+
+  ![](./media/image-20250813135635410.png)
 
 ```cpp
 #include <SPI.h>
@@ -154,8 +166,6 @@ void loop() {
 
 ## 10. 参考链接
 
-- [Arduino 官网](https://www.arduino.cc/)  
-- [Keyes 官网](http://www.keyes-robot.com/)  
 - [MFRC522 Arduino 库 (GitHub)](https://github.com/miguelbalboa/rfid)  
 - [MIFARE Classic / NXP 文档](https://www.nxp.com/products/rfid-nfc/mifare-classic)
 

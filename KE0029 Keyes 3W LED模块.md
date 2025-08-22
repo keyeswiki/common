@@ -26,7 +26,7 @@ KE0029 Keyes 3W LED模块是一款高亮度的LED模块，适用于Arduino和其
 
 - **工作电压**：3.3V-5V  
 - **功率**：3W  
-- **接口类型**：3PIN接口（VCC、GND、SIG）  
+- **接口类型**：3PIN接口（VCC、GND、S）  
 - **控制方式**：数字信号或PWM信号  
 - **发光颜色**：红色  
 
@@ -34,7 +34,7 @@ KE0029 Keyes 3W LED模块是一款高亮度的LED模块，适用于Arduino和其
 
 ## **4. 工作原理**
 
-KE0029 3W LED模块通过控制信号引脚（SIG）来控制LED灯的亮灭或亮度：  
+KE0029 3W LED模块通过控制信号引脚（S）来控制LED灯的亮灭或亮度：  
 - **数字信号控制**：通过数字信号（HIGH/LOW）控制LED灯的开关状态。  
 - **PWM信号控制**：通过PWM信号调节LED灯的亮度，PWM占空比越高，亮度越高。  
 
@@ -45,7 +45,7 @@ KE0029 3W LED模块通过控制信号引脚（SIG）来控制LED灯的亮灭或�
 KE0029 3W LED模块提供3个引脚：  
 - **VCC**：电源正极（3.3V或5V）  
 - **GND**：电源负极  
-- **SIG**：控制信号输入（数字信号或PWM信号）  
+- **S**：控制信号输入（数字信号或PWM信号）  
 
 ---
 
@@ -57,7 +57,7 @@ KE0029 3W LED模块提供3个引脚：
 | -------- | ------------ |
 | VCC      | 5V           |
 | GND      | GND          |
-| SIG      | D3           |
+| S        | D3           |
 
 连接示意图：  
 
@@ -75,10 +75,10 @@ KE0029 3W LED模块提供3个引脚：
 
 ##### **示例1：数字信号控制LED开关**
 ```cpp
-const int ledPin = 3;  // SIG 引脚连接到数字引脚 D3
+const int ledPin = 3;  // S 引脚连接到数字引脚 D3
 
 void setup() {
-  pinMode(ledPin, OUTPUT);  // 设置 SIG 为输出
+  pinMode(ledPin, OUTPUT);  // 设置 S 为输出
 }
 
 void loop() {
@@ -93,10 +93,10 @@ void loop() {
 
 ##### **示例2：PWM信号控制LED亮度**
 ```cpp
-const int ledPin = 9;  // SIG 引脚连接到数字引脚 D3
+const int ledPin = 9;  // S 引脚连接到数字引脚 D3
 
 void setup() {
-  pinMode(ledPin, OUTPUT);  // 设置 SIG 为输出
+  pinMode(ledPin, OUTPUT);  // 设置 S 为输出
 }
 
 void loop() {
@@ -132,21 +132,6 @@ void loop() {
 
 1. **供电电压**：确保模块的供电电压在3.3V-5V范围内，避免损坏模块。  
 2. **散热问题**：3W LED灯珠功率较高，长时间使用时可能会发热，建议在必要时添加散热措施。  
-3. **信号控制**：SIG引脚既可以接数字信号，也可以接PWM信号，根据需求选择控制方式。  
+3. **信号控制**：S引脚既可以接数字信号，也可以接PWM信号，根据需求选择控制方式。  
 4. **避免短路**：在连接模块时，确保接线正确，避免短路或反接。  
-
----
-
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-  提供Arduino IDE下载、官方教程和示例代码。  
-- **Keyes 官网**：[http://www.keyes-robot.com/](http://www.keyes-robot.com/)  
-  提供Keyes产品的详细信息和技术支持。  
-- **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-  提供丰富的Arduino教程，适合初学者和进阶用户。  
-
----
-
-KE0029 Keyes 3W LED模块是一款简单易用的高亮度LED模块，适合初学者学习Arduino编程和LED控制，也适用于各种照明和装饰项目。通过本教程，用户可以快速上手并实现LED灯的控制功能。
 

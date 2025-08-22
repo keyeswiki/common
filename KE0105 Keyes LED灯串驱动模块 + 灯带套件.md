@@ -149,7 +149,3 @@ void loop() {
 ## 7. 结语
 
 通过 **KE0105 Keyes LED灯串驱动模块 + 灯带套件**，可以快速完成对单色 LED 灯带的数字开关或 PWM 调光。若想实现更多炫彩效果（如 RGB WS2812、RGB 流水灯等），可选择相应可编程灯带。你也可配合定制外壳或反光材料，为灯光增添更佳的装饰性。  
-
-### 相关链接
-- [Keyes 官网](http://www.keyes-robot.com/)  
-- [Arduino 官方文档](https://www.arduino.cc/) 

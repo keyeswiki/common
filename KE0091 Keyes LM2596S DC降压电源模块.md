@@ -154,14 +154,3 @@ void loop() {
 6. **电位器调节**：需缓慢旋转电位器，急速调节可能导致输出电压瞬间过冲，损坏后端电路。  
 7. **测试仪表**：使用万用表时注意量程，防止表笔或表档位设置不当造成的短路或读数失准。
 
----
-
-## **10. 参考链接**
-
-- [Keyes 官网](http://www.keyes-robot.com/)  
-- [LM2596S 数据手册 (Texas Instruments)](https://www.ti.com/lit/ds/symlink/lm2596.pdf)  
-- [Arduino 官网](https://www.arduino.cc/)  
-
----
-
-如果对 KE0091 Keyes LM2596S DC降压电源模块的使用或安装有任何疑问，请随时告诉我！

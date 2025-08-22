@@ -152,8 +152,6 @@ void loop() {
 ## **10. 参考链接**
 
 以下是一些有助于开发的参考链接：
-- [Arduino官网](https://www.arduino.cc/)
-- [Keyes官网](http://www.keyes-robot.com/)
 - [Arduino PWM教程](https://www.arduino.cc/en/Tutorial/PWM)
 - [RGB LED原理介绍](https://en.wikipedia.org/wiki/RGB_LED)
 

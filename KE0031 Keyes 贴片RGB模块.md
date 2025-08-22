@@ -195,18 +195,5 @@ void loop() {
 3. **避免短路**：在连接模块时，确保接线正确，避免短路或反接。  
 4. **散热问题**：长时间使用时，LED可能会发热，建议适当散热。  
 
----
 
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-- **Keyes 官网**：[http://www.keyes-robot.com/](http://www.keyes-robot.com/)  
-
----
-
-KE0031 Keyes 贴片RGB模块是一款功能强大的RGB LED模块，适合初学者学习Arduino编程和RGB灯控制，也适用于各种装饰和多彩显示项目。通过本教程，用户可以快速上手并实现RGB灯的控制功能。
-
----
-
-如果需要继续介绍其他模块，请告诉我！
 

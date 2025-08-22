@@ -229,9 +229,6 @@ void loop() {
 ---
 
 ## 10. 参考链接
-- [KEYES 官方网站](http://www.keyes-robot.com/)
 - [KEYES YX5200-24SS MP3模块产品页面](http://www.keyes.com.cn/product/123)
-- [Arduino 官方网站](https://www.arduino.cc)
-- [Arduino 论坛](https://forum.arduino.cc)
 
 如有更多疑问，请联系 Keyes 官方客服或加入相关创客社区交流。祝使用愉快！

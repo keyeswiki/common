@@ -121,8 +121,6 @@ void loop() {
 ---
 
 ## 10. 参考链接
-- [KEYES 官方网站](http://www.keyes-robot.com/)  
-- [Arduino 官方网站](https://www.arduino.cc)  
 - [TCRT5000 传感器资料](https://www.electronicwings.com/sensors/tcrt5000-infrared-obstacle-avoidance-sensor)  
 - [Arduino IDE 下载](https://www.arduino.cc/en/software)  
 

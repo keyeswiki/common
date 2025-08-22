@@ -25,7 +25,7 @@ KE0021 Keyes 有源蜂鸣器模块是一款专为 Arduino 和其他微控制器�
 ## **3. 规格参数**
 
 - **工作电压**：3.3V-5V（DC）  
-- **接口类型**：3PIN 接口（VCC、GND、信号）  
+- **接口类型**：3PIN 接口（VCC、GND、S）  
 - **输入信号**：数字信号（高低电平）  
 - **声音频率**：固定频率（约 2kHz）  
 - **特点**：内置振荡电路，稳定性高  
@@ -94,18 +94,4 @@ void loop() {
 3. **声音频率**：有源蜂鸣器的频率是固定的，无法通过代码调整音调。  
 4. **模块固定**：模块自带定位孔，建议在项目中使用螺丝固定模块，避免松动。  
 5. **环境噪声**：在嘈杂环境中，蜂鸣器的声音可能不够明显，建议根据需求选择更大功率的蜂鸣器。  
-
----
-
-## **10. 参考链接**
-
-1. **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-   提供 Arduino IDE 下载、官方教程和示例代码。  
-2. **Keyes 官网**：[http://www.keyes-robot.com/](http://www.keyes-robot.com/)  
-   提供 Keyes 产品的详细信息和技术支持。  
-4. **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-   提供丰富的 Arduino 教程，适合初学者和进阶用户。  
----
-
-KE0021 Keyes 有源蜂鸣器模块是一款简单易用的声音输出模块，非常适合初学者学习 Arduino 编程和电子电路设计。通过该模块，用户可以轻松实现报警、提示音等功能，是物联网项目开发的理想选择。
 

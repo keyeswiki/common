@@ -159,7 +159,5 @@ void loop() {
 
 ## **10. 参考链接**
 
-- [Keyes 官网](http://www.keyes-robot.com/)  
 - [DFPlayer Mini Mp3 by Makuna (GitHub)](https://github.com/DFRobot/DFPlayer-Mini-mp3)  
-- [Arduino 官网](https://www.arduino.cc/)  
 

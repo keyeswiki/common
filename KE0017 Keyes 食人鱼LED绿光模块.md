@@ -23,7 +23,7 @@ KE0017 Keyes 食人鱼LED绿光模块是一款基于高亮度食人鱼LED的模�
 ## **3. 规格参数**
 
 - **工作电压**：3.3-5V（DC）  
-- **接口类型**：3PIN 接口（VCC、GND、信号）  
+- **接口类型**：3PIN 接口（VCC、GND、S）  
 - **输入信号**：数字信号  
 - **发光颜色**：绿色  
 - **模块尺寸**：19mm x 15mm  
@@ -96,18 +96,5 @@ void loop()
 4. **固定模块**：使用模块上的定位孔将其固定在设备上，避免因震动导致接触不良。  
 5. **调试注意**：在调试过程中，确保 Arduino 开发板和模块的电源共地（GND 连接）。  
 
----
 
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-  提供 Arduino IDE 下载、官方教程和示例代码。  
-- **Keyes 官网**：http://www.keyes-robot.com/ 
-  提供 Keyes 产品的详细信息和技术支持。  
-- **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-  提供丰富的 Arduino 教程，适合初学者和进阶用户。  
-
----
-
-KE0017 Keyes 食人鱼LED绿光模块是一款简单易用的 LED 模块，适合初学者学习 Arduino 编程和电子电路设计，也适用于各种 DIY 项目和教学实验。通过其高亮度和低功耗的特点，用户可以轻松实现指示灯、状态显示等功能。
 

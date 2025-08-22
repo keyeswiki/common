@@ -111,10 +111,6 @@ void loop() {
 ---
 
 ## 10. 参考链接
-- **Arduino 官方文档**  
-  - [Arduino 官方](https://www.arduino.cc/)  
-- **Keyes 相关**  
-  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
   - [Arduino IDE 下载](https://www.arduino.cc/en/software)  
   - [MOSFET 使用指南](https://learn.adafruit.com/adafruit-arduino-lesson-4-mosfets)  

@@ -71,43 +71,96 @@ DS1302 是一款低功耗的实时时钟芯片，支持年、月、日、时、�
 
 ## **7. 示例代码**
 
-以下是用于测试 KE0050 模块的 Arduino 示例代码，需安装 **DS1302RTC** 库：
+以下是用于测试 KE0050 模块的 Arduino 示例代码，需安装库：
 
-#### **安装 DS1302RTC 库**
-1. 打开 Arduino IDE，点击 **工具 > 管理库**。
-2. 搜索 **DS1302RTC**，安装由 **Paul Stoffregen** 提供的库。
+- 下载库文件：[DS1302](./资料/KE0050.7z)
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250813101211773.png)
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  ![](./media/image-20250821110154088.png)
+
+- 安装成功界面。
+
+  ![](./media/image-20250813135635410.png)
 
 #### **代码**
+
 ```cpp
-#include <DS1302.h>
+#include "Ds1302.h"
 
-// 定义 DS1302 引脚
-#define RST_PIN 7
-#define DAT_PIN 6
-#define CLK_PIN 5
+// 定义引脚（根据实际接线修改）
+#define PIN_ENA 5   // RST引脚
+#define PIN_CLK 7   // 时钟引脚
+#define PIN_DAT 6   // 数据引脚
 
-// 创建 DS1302 对象
-DS1302 rtc(RST_PIN, DAT_PIN, CLK_PIN);
+Ds1302 rtc(PIN_ENA, PIN_CLK, PIN_DAT);
+Ds1302::DateTime dt;  // 明确指定为Ds1302类内的DateTime类型
 
 void setup() {
-  Serial.begin(9600); // 设置串口波特率为9600
+  Serial.begin(9600);
+  rtc.init();
+  rtc.start();  // 确保时钟启动
 
-  // 设置时间（仅需运行一次，之后可以注释掉）
-  // rtc.setDOW(SUNDAY);       // 设置星期
-  // rtc.setTime(12, 30, 0);   // 设置时间：时、分、秒
-  // rtc.setDate(10, 3, 2025); // 设置日期：日、月、年
+  // 可选：设置初始时间（使用枚举使代码更直观）
+  /*
+  dt.year = 25;             // 2025年
+  dt.month = Ds1302::MONTH_AUG;  // 8月（使用枚举）
+  dt.day = 19;              // 19日
+  dt.hour = 16;             // 16时
+  dt.minute = 45;           // 45分
+  dt.second = 0;            // 0秒
+  dt.dow = Ds1302::DOW_TUE; // 星期二（使用枚举）
+  rtc.setDateTime(&dt);
+  */
 
-  Serial.println("DS1302 RTC Module Ready");
+  Serial.println("时间格式：年-月-日 时:分:秒 星期");
+  Serial.println("----------------------------");
 }
 
 void loop() {
-  // 打印当前时间
-  Serial.print("Time: ");
-  Serial.print(rtc.getTimeStr()); // 获取时间字符串
-  Serial.print(" Date: ");
-  Serial.println(rtc.getDateStr()); // 获取日期字符串
+  rtc.getDateTime(&dt);  // 读取时间到结构体
 
-  delay(1000); // 每秒更新一次
+  // 打印日期（年份补全为4位）
+  Serial.print("20");
+  printTwoDigits(dt.year);
+  Serial.print("-");
+  printTwoDigits(dt.month);
+  Serial.print("-");
+  printTwoDigits(dt.day);
+  Serial.print(" ");
+
+  // 打印时间
+  printTwoDigits(dt.hour);
+  Serial.print(":");
+  printTwoDigits(dt.minute);
+  Serial.print(":");
+  printTwoDigits(dt.second);
+  Serial.print("  ");
+
+  // 打印星期（转换为中文）
+  Serial.print("星期");
+  switch(dt.dow) {
+    case Ds1302::DOW_MON: Serial.print("一"); break;
+    case Ds1302::DOW_TUE: Serial.print("二"); break;
+    case Ds1302::DOW_WED: Serial.print("三"); break;
+    case Ds1302::DOW_THU: Serial.print("四"); break;
+    case Ds1302::DOW_FRI: Serial.print("五"); break;
+    case Ds1302::DOW_SAT: Serial.print("六"); break;
+    case Ds1302::DOW_SUN: Serial.print("日"); break;
+  }
+
+  Serial.println();
+  delay(1000);
+}
+
+// 补0函数（确保两位数显示）
+void printTwoDigits(uint8_t num) {
+  if (num < 10) Serial.print("0");
+  Serial.print(num);
 }
 ```
 
@@ -153,7 +206,5 @@ void loop() {
 ## **11. 参考链接**
 
 以下是一些有助于开发的参考链接：
-- [Arduino官网](https://www.arduino.cc/)
-- [Keyes官网](http://www.keyes-robot.com/)
 - [DS1302芯片工作原理介绍](https://datasheets.maximintegrated.com/en/ds/DS1302.pdf)
 

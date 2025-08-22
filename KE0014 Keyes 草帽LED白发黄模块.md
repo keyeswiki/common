@@ -23,7 +23,7 @@ KE0014 Keyes 草帽LED白发黄模块是一款专为 Arduino 和其他微控制�
 ## **3. 规格参数**
 
 - **工作电压**：3.3-5V（DC）  
-- **接口类型**：3PIN 接口（VCC、GND、信号）  
+- **接口类型**：3PIN 接口（VCC、GND、S）  
 - **输入信号**：数字信号  
 - **发光颜色**：黄色（白色外壳，发黄光）  
 - **重量**：约 2.4g  
@@ -108,22 +108,4 @@ void loop()
 3. **避免短路**：在实验过程中，确保模块与其他元件之间无短路现象。  
 4. **固定模块**：如果需要将模块固定在设备上，建议使用螺丝或其他固定方式，避免模块松动。  
 5. **代码调试**：在上传代码前，确保选择正确的开发板型号和端口。  
-
----
-
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-  提供 Arduino IDE 下载、官方教程和示例代码。  
-  
-- **Keyes 官网**：http://www.keyes-robot.com/
-
-  提供 Keyes 产品的详细信息和技术支持。  
-
-- **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-  提供丰富的 Arduino 教程，适合初学者和进阶用户。  
-
----
-
-KE0014 Keyes 草帽LED白发黄模块是一款简单易用的 LED 模块，适合初学者学习 Arduino 编程和电子电路设计，也适用于各种 DIY 项目和教学实验。通过其稳定的性能和易用的接口，用户可以快速实现 LED 控制功能，轻松完成各种创意项目。
 

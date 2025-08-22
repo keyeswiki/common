@@ -54,9 +54,9 @@ DS3234 是一款高精度 RTC 芯片，内部集成了温度补偿晶振和电�
    - 用于 SPI 通信，接 Arduino 的 MISO 引脚。
 4. **MOSI**：SPI 主输出从输入（Master Out Slave In）。  
    - 用于 SPI 通信，接 Arduino 的 MOSI 引脚。
-5. **SCK**：SPI 时钟信号（Serial Clock）。  
+5. **SCL**：SPI 时钟信号（Serial Clock）。  
    - 用于 SPI 通信的时钟信号，接 Arduino 的 SCK 引脚。
-6. **CS**：SPI 片选信号（Chip Select）。  
+6. **SS**：SPI 片选信号（Chip Select）。  
    - 用于选择当前通信的 SPI 从设备，接 Arduino 的任意数字引脚（如 D10）。
 
 ---
@@ -66,17 +66,17 @@ DS3234 是一款高精度 RTC 芯片，内部集成了温度补偿晶振和电�
 以下是 KE0072 模块与 Arduino UNO 的连接示意图：
 
 | KE0072模块引脚 | Arduino引脚 |
-|----------------|-------------|
+| -------------- | ----------- |
 | VCC            | 5V          |
 | GND            | GND         |
 | MISO           | D12         |
 | MOSI           | D11         |
-| SCK            | D13         |
-| CS             | D10         |
+| SCL            | D13         |
+| SS             | D10         |
 
 连接图如下：
 
-![image-20250319101713974](media/image-20250319101713974.png)
+![](media/image-20250319101713974.png)
 
 ---
 
@@ -90,6 +90,7 @@ DS3234 是一款高精度 RTC 芯片，内部集成了温度补偿晶振和电�
 3. 搜索 **DS3234**，点击安装。
 
 #### **代码示例**
+
 ```cpp
 #include <SPI.h>
 #include <DS3234.h>
@@ -173,7 +174,7 @@ void loop() {
 
 1. **电压范围**：确保模块工作在 3.3V ～ 5V 电压范围内，避免损坏模块。
 2. **备用电池**：模块自带 CR2032 可充电电池，确保电池电量充足。
-3. **SPI 接口**：DS3234 使用 SPI 通信协议，MISO、MOSI、SCK 和 CS 引脚必须正确连接。
+3. **SPI 接口**：DS3234 使用 SPI 通信协议，MISO、MOSI、SCL 和 SS 引脚必须正确连接。
 4. **库安装**：使用示例代码前，请确保已安装 **DS3234** 库。
 5. **时间设置**：首次使用时需要通过代码设置时间，之后模块会自动保持时间运行。
 
@@ -181,8 +182,6 @@ void loop() {
 
 ## **10. 参考链接**
 
-- [Arduino 官网](https://www.arduino.cc/)
-- [Keyes 官网](http://www.keyes-robot.com/)
 - [DS3234 数据手册](https://datasheets.maximintegrated.com/en/ds/DS3234.pdf)
 - [DS3234 库 GitHub](https://github.com/rodan/ds3234)
 

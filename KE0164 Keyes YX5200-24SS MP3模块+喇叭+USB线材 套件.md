@@ -143,9 +143,7 @@ void loop() {
 ---
 
 ## 10. 参考链接
-- [Keyes 官方网站](http://www.keyes-robot.com/)  
 - [YX5200-24SS 数据手册](https://www.keyes.com.cn)  
-- [Arduino 官方网站](https://www.arduino.cc)  
 - [MP3 模块使用教程](https://www.electronicwings.com/nrf/hc-06-bluetooth-module)  
 
 如有更多疑问，请联系 Keyes 官方客服或加入相关创客社区交流。祝使用愉快！

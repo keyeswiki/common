@@ -22,7 +22,7 @@ KE0022 Keyes 无源蜂鸣器模块是一款专为 Arduino 和其他微控制器�
 ## **3. 规格参数**
 
 - **工作电压**：3.3-5V（DC）  
-- **接口类型**：3PIN 接口（VCC、GND、信号）  
+- **接口类型**：3PIN 接口（VCC、GND、S）  
 - **输入信号**：PWM 信号  
 - **特点**：需要外部驱动信号，支持多种频率声音输出  
 
@@ -102,18 +102,5 @@ void loop() {
 4. **音量控制**：无源蜂鸣器的音量无法直接调节，但可以通过改变 PWM 信号的占空比间接控制音量。  
 5. **频率范围**：蜂鸣器的最佳工作频率范围为 1kHz-5kHz，超出范围可能导致声音失真或无声。  
 
----
 
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-  提供 Arduino IDE 下载、官方教程和示例代码。  
-- **Keyes 官网**：[http://www.keyes-robot.com/](http://www.keyes-robot.com/)  
-  提供 Keyes 产品的详细信息和技术支持。  
-- **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-  提供丰富的 Arduino 教程，适合初学者和进阶用户。  
-
----
-
-KE0022 Keyes 无源蜂鸣器模块是一款功能强大、易于使用的声音输出模块，非常适合初学者学习 Arduino 编程和声音控制技术。通过 PWM 信号控制，用户可以轻松实现音调播放、声音提示等功能，广泛应用于物联网、智能家居和电子创意项目中。
 

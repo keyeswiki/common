@@ -52,7 +52,7 @@ GUVA-S12SD 是一款紫外线光电二极管，能够检测 240nm ～ 370nm 波�
    - 用于为模块供电。
 2. **GND**：电源负极（接地）。  
    - 与 Arduino 或其他控制板的 GND 引脚连接。
-3. **OUT**：模拟信号输出。  
+3. **S**：模拟信号输出。  
    - 输出与紫外线强度成正比的模拟电压信号，接 Arduino 的模拟输入引脚（如 A0）。
 
 ---
@@ -62,10 +62,10 @@ GUVA-S12SD 是一款紫外线光电二极管，能够检测 240nm ～ 370nm 波�
 以下是 KE0076 模块与 Arduino UNO 的连接示意图：
 
 | 模块引脚 | Arduino 引脚 |
-|----------|--------------|
+| -------- | ------------ |
 | **VCC**  | 5V           |
 | **GND**  | GND          |
-| **OUT**  | A0           |
+| **S**    | A0           |
 
 连接图如下：
 
@@ -129,8 +129,6 @@ void loop() {
 
 ## **10. 参考链接**
 
-- [Arduino 官网](https://www.arduino.cc/)
-- [Keyes 官网](http://www.keyes-robot.com/)
 - [GUVA-S12SD 数据手册](https://www.gotop.com.tw/en/product/GUVA-S12SD.html)
 
 ---

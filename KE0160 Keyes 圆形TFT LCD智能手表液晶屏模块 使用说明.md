@@ -59,7 +59,24 @@
 ---
 
 ## 6. 测试代码
+**安装库**
+
+- 下载库文件：[KE0160](./资料/KE0160.7z)
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250813101211773.png)
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  ![](./media/image-20250814111450685.png)
+
+- 安装成功界面。
+
+  ![](./media/image-20250813135635410.png)
+
 ### 代码1：绘制三角形
+
 ```cpp
 #include "DFRobot_ST7687S_Latch.h"
 
@@ -125,12 +142,3 @@ void loop(void) {
 
 ![KE0160-5](media/KE0160-5.jpg)
 
----
-
-## 8. 相关资料链接
-- [百度网盘资料链接](https://pan.baidu.com/s/1WgcWM7fQGD02V-EZ3nqjdw)  
-  提取码：cf41  
-- [KEYES 官方网站](http://www.keyes-robot.com/)  
-- [Arduino 官方网站](https://www.arduino.cc)  
-
-如有更多疑问，请联系 Keyes 官方客服或加入相关创客社区交流。祝使用愉快！

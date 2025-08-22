@@ -67,7 +67,7 @@ KE0070 魔术光杯传感器模块通过滚珠开关检测倾斜方向，提供�
 
 连接图如下：
 
-![img-20230307134752](X:/工程--品牌 （单品资料对接）及资料修改/KE资料库/KE0070 keyes 魔术光杯传感器(焊盘孔) 红色 环保/media/img-20230307134752.png)
+![](./media/image-20250813155302472.png)
 
 ---
 
@@ -162,8 +162,6 @@ void loop() {
 
 ## **10. 参考链接**
 
-- [Arduino 官网](https://www.arduino.cc/)
-- [Keyes 官网](http://www.keyes-robot.com/)
 - [PWM 信号原理](https://en.wikipedia.org/wiki/Pulse-width_modulation)
 - [滚珠开关工作原理](https://en.wikipedia.org/wiki/Tilt_switch)
 

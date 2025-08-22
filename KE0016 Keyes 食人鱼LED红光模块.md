@@ -23,7 +23,7 @@ KE0016 Keyes 食人鱼LED红光模块是一款基于高亮度食人鱼LED的模�
 ## **3. 规格参数**
 
 - **工作电压**：3.3-5V（DC）  
-- **接口类型**：3PIN 接口（VCC、GND、信号）  
+- **接口类型**：3PIN 接口（VCC、GND、S）  
 - **输入信号**：数字信号  
 - **LED 类型**：食人鱼LED（红光）  
 - **发光颜色**：红色  
@@ -101,22 +101,4 @@ void loop()
 3. **信号控制**：信号引脚需连接到 Arduino 的数字引脚，确保代码中定义的引脚与实际连接一致。  
 4. **固定模块**：模块自带定位孔，建议使用螺丝或其他方式将模块固定在设备上，避免松动。  
 5. **长时间运行**：如果模块长时间运行，建议检查电源是否稳定，避免因电源问题导致模块损坏。  
-
----
-
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-  提供 Arduino IDE 下载、官方教程和示例代码。  
-  
-- **Keyes 官网**：http://www.keyes-robot.com/
-
-  提供 Keyes 产品的详细信息和技术支持。  
-
-- **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-  提供丰富的 Arduino 教程，适合初学者和进阶用户。  
-
----
-
-KE0016 Keyes 食人鱼LED红光模块是一款简单易用的 LED 模块，适合初学者学习 Arduino 编程和电子电路设计，也适用于各种 DIY 项目和教学实验。通过该模块，用户可以快速实现 LED 的控制，轻松完成各种光源控制实验。
 

@@ -26,7 +26,7 @@ KE0011 Keyes 草帽LED白发红模块是一款专为 Arduino 和其他微控制�
 ## **3. 规格参数**
 
 - **工作电压**：3.3-5V（DC）  
-- **接口类型**：3PIN 接口（VCC、GND、信号）  
+- **接口类型**：3PIN 接口（VCC、GND、S）  
 - **输入信号**：数字信号  
 - **发光颜色**：红色  
 - **LED 类型**：草帽型 LED  
@@ -109,19 +109,4 @@ void loop()
 3. **信号控制**：信号引脚（S）需连接到 Arduino 的数字引脚，确保代码中定义的引脚与实际连接一致。  
 4. **固定模块**：如果需要将模块固定在设备上，可使用定位孔，避免模块松动影响实验效果。  
 5. **环境要求**：避免在高温、高湿或强光环境下使用模块，以免影响 LED 的性能。  
-
----
-
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-  提供 Arduino IDE 下载、官方教程和示例代码。  
-- **Keyes 官网**：http://www.keyes-robot.com/
-  提供 Keyes 产品的详细信息和技术支持。  
-- **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-  提供丰富的 Arduino 教程，适合初学者和进阶用户。  
-
----
-
-KE0011 Keyes 草帽LED白发红模块是一款简单易用的 LED 模块，适合初学者学习 Arduino 编程和电子电路设计，也适用于各种 DIY 项目和教学实验。通过简单的数字信号控制，用户可以轻松实现 LED 的闪烁、状态指示等功能。
 

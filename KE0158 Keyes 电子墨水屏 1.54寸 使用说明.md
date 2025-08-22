@@ -1,6 +1,8 @@
 # KE0158 KEYES 电子墨水屏 1.54寸
 
-![image-20250318083107484](media/image-20250318083107484.png)
+**资料下载：[相关资料](./资料/KE0158相关资料.7z)**  
+
+![](media/image-20250318083107484.png)
 
 ---
 
@@ -52,7 +54,24 @@
 ---
 
 ## 4. 测试代码链接
-### Arduino代码
+**安装库**
+
+- 下载库文件：[epd1in54_V2](./资料/KE0158.7z)
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250813101211773.png)
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  ![](./media/image-20250814103911561.png)
+
+- 安装成功界面。
+
+  ![](./media/image-20250813135635410.png)
+
+- ### Arduino代码
+
 ```cpp
 #include <SPI.h>
 #include "epd1in54_V2.h"
@@ -224,10 +243,6 @@ F. 注意，设置代码时，需要调用显示图案，显示图案的路径�
 
 ## 8. 相关资料链接
 
-- [百度网盘资料链接](https://pan.baidu.com/s/1NFa70kiqmiUkHK3dRYqiPQ)  
-  提取码：s836  
-- [KEYES 官方网站](http://www.keyes-robot.com/)  
-- [Arduino 官方网站](https://www.arduino.cc)  
 - [树莓派官方网站](https://www.raspberrypi.org)
 
 如有更多疑问，请联系 Keyes 官方客服或加入相关创客社区交流。祝使用愉快！

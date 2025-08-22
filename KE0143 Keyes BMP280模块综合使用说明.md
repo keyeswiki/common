@@ -71,6 +71,22 @@ flowchart LR
 ---
 
 ## 7. 示例代码
+**安装库**
+
+- 下载库文件：[KE0143](./资料/KE0143.7z)
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250813101211773.png)
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  ![](./media/image-20250814093914353.png)
+
+- 安装成功界面。
+
+  ![](./media/image-20250813135635410.png)
+
 以下是使用 I2C 通信方式的测试代码示例：
 
 ```cpp
@@ -109,7 +125,9 @@ void loop() {
 }
 ```
 
----
+**如果安装以上的库后，上传代码报错(代码上传成功不用安装)，请按照上述步骤安装Wire库。**
+
+- 下载库文件：[Wire](./资料/Wire.7z)
 
 ## 8. 实验现象
 1. 确保使用 Arduino IDE 版本 1.6.1 进行测试，其他版本可能无法成功运行。  
@@ -134,8 +152,6 @@ void loop() {
 - **官方文档**  
   - [micro:bit 官方](https://microbit.org/)  
   - [Arduino 官方](https://www.arduino.cc/)  
-- **Keyes 相关**  
-  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
 	- [Adafruit BMP280 库](https://github.com/adafruit/Adafruit_BMP280_Library)  
 	- [Arduino IDE 下载](https://www.arduino.cc/en/software)  

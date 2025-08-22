@@ -143,7 +143,6 @@ void loop() {
 ---
 
 ## 7. 更多信息
-- [Keyes 官方网站](http://www.keyes-robot.com/)  
 - [DHT12 数据手册 (英文)](http://www.aosong.com)  
 - [DHT12 Arduino 库 (GitHub)](https://github.com/RobTillaart/DHT12)
 

@@ -115,7 +115,5 @@ void loop() {
 
 ## 9. 参考链接
 
-- [Arduino 官网](https://www.arduino.cc/)  
-- [Keyes 官网](http://www.keyes-robot.com/)  
 - [FSR (Force Sensitive Resistor) 基础原理](https://www.sparkfun.com/datasheets/Sensors/Pressure/fsrguide.pdf)  
 

@@ -123,6 +123,4 @@ void loop() {
 ---
 
 ## 10. 参考链接  
-- [Arduino 官网](https://www.arduino.cc/)  
-- [Keyes 官网](http://www.keyes-robot.com/)  
 - [LED 基础原理 (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)  

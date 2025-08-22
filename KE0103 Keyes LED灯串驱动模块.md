@@ -131,8 +131,6 @@ void loop() {
 
 ## **10. 参考链接**
 
-- [Keyes 官网](http://www.keyes-robot.com/)  
-- [Arduino 官网](https://www.arduino.cc/)  
 - [LED 与驱动简单原理说明](https://www.electronics-tutorials.ws/)  
 
 ---

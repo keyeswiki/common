@@ -1,6 +1,6 @@
 # KE0150 KEYES 按键模块（焊盘孔）红色
 
----
+
 
 ## 1. 介绍
 **KEYES 按键模块** 是一款用于电子项目的简单按键输入模块，采用红色按键帽，设计用于与各种单片机（如 Arduino、树莓派等）配合使用。该模块通过按键的开关状态来控制电路的通断，适合用于各种交互式项目和实验。
@@ -92,10 +92,6 @@ void loop() {
 ---
 
 ## 10. 参考链接
-- **Arduino 官方文档**  
-  - [Arduino 官方](https://www.arduino.cc/)  
-- **Keyes 相关**  
-  - [Keyes 官网](http://www.keyes-robot.com/)  
 - **开发辅助**  
   - [Arduino IDE 下载](https://www.arduino.cc/en/software)  
   - [按键模块使用指南](https://learn.adafruit.com/adafruit-arduino-lesson-3-button)  

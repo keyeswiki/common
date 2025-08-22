@@ -6,7 +6,7 @@
 
 ## **1. 介绍**
 
-KE0018 Keyes 食人鱼LED蓝光模块是一款基于高亮度食人鱼LED的模块，专为 Arduino 和其他微控制器设计。该模块采用蓝光食人鱼LED，具有高亮度、低功耗、寿命长、稳定性高等特点。模块自带 3PIN 接口（VCC、GND、信号），兼容 Arduino 传感器扩展板，适合用于电子学习、DIY 项目、智能设备指示灯等场景。
+KE0018 Keyes 食人鱼LED蓝光模块是一款基于高亮度食人鱼LED的模块，专为 Arduino 和其他微控制器设计。该模块采用蓝光食人鱼LED，具有高亮度、低功耗、寿命长、稳定性高等特点。模块自带 3PIN 接口（VCC、GND、S），兼容 Arduino 传感器扩展板，适合用于电子学习、DIY 项目、智能设备指示灯等场景。
 
 ---
 
@@ -24,7 +24,7 @@ KE0018 Keyes 食人鱼LED蓝光模块是一款基于高亮度食人鱼LED的模�
 ## **3. 规格参数**
 
 - **工作电压**：3.3-5V（DC）  
-- **接口类型**：3PIN 接口（VCC、GND、信号）  
+- **接口类型**：3PIN 接口（VCC、GND、S）  
 - **输入信号**：数字信号  
 - **发光颜色**：蓝光  
 - **LED 类型**：食人鱼LED  
@@ -103,17 +103,3 @@ void loop()
 4. **固定模块**：使用模块上的定位孔将其固定在设备上，避免因移动导致接触不良。  
 5. **环境要求**：避免在高温或潮湿环境下使用，以延长模块寿命。  
 
----
-
-## **10. 参考链接**
-
-- **Arduino 官网**：[https://www.arduino.cc/](https://www.arduino.cc/)  
-  提供 Arduino IDE 下载、官方教程和示例代码。  
-- **Keyes 官网**：http://www.keyes-robot.com/ 
-  提供 Keyes 产品的详细信息和技术支持。  
-- **Arduino 教程资源**：[https://www.arduino.cc/en/Tutorial/HomePage](https://www.arduino.cc/en/Tutorial/HomePage)  
-  提供丰富的 Arduino 教程，适合初学者和进阶用户。  
-
----
-
-KE0018 Keyes 食人鱼LED蓝光模块是一款简单易用的 LED 模块，适合初学者学习 Arduino 编程和电子电路设计，也适用于各种 DIY 项目和教学实验。通过该模块，用户可以轻松实现 LED 的控制，快速搭建电子项目。

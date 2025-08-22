@@ -173,8 +173,6 @@ void stepMotor(int step) {
 
 ## **10. 参考链接**
 
-- [Arduino 官网](https://www.arduino.cc/)
-- [Keyes 官网](http://www.keyes-robot.com/)
 - [ULN2003 数据手册](https://www.ti.com/lit/ds/symlink/uln2003a.pdf)
 
 ---
