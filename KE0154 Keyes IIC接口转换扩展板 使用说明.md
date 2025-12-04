@@ -1,95 +1,117 @@
-# KE0154 KEYES IIC接口转换扩展板
+# keyes IIC接口转换扩展板 红色环保
 
-![image-20250318082024296](media/image-20250318082024296.png)
+![img](./media/file_20251204135704_8f3a1b9c-e6d2-4a1f-b8e0-7c92a4f5e6d1.png) 
 
----
+ 
 
-## 1. 说明
-**KEYES IIC接口转换扩展板** 是一款用于 I2C 通信的扩展板。当单片机与其他传感器模块通信时，通常需要使用 I2C 通信方式。通过更改地址，可以同时与多个传感器模块进行 I2C 通信。一般单片机仅引出一个 I2C 通信接口，这样不够方便。使用此扩展板后，可以将 I2C 通信端口通过间距为 2.54mm 的 4-pin 排针引出，共引出 10 个通信端口，确保单片机可以同时与 9 个传感器模块进行 I2C 通信。
+## **说明**
 
----
+这是一个I2C接口转换扩展板，可以用于拓展I2C接口（注意：不支持修改I2C地址）。当单片机和其他传感器模块通信时，需要用到I2C通信方式。一般单片机就只是引出一个I2C通信接口，很不方便，有了这个扩展板，就能解决这个麻烦。它将I2C通信端口利用间距为2.54mm的4pin排针引出,共引出10个通信端口，保证单片机可以同时和9个传感器模块进行I2C通信。
 
-## 2. 技术参数
-- **工作电压**：DC 5V  
-- **通信方式**：I2C 通信  
-- **排针间距**：2.54mm  
-- **尺寸**：50mm × 40mm × 12mm  
-- **重量**：9.2g  
+## **技术参数**
 
----
+支持主板：Arduino系列、ESP系列（esp32，esp8266等）、STM系列等
 
-## 3. 使用方法
-我们可以利用 Arduino UNO R3 板和扩展板控制 8 个 KE2058 Keyes brick 8X8 点阵模块（可选地址）显示不同图案。以下是连接和代码示例：
+工作电压: DC 5V
 
-![image-20250318082103170](media/image-20250318082103170.png)
+通信方式: I2C通信
 
-### 3.1 连接示意图
-以下是 KEYES IIC 接口转换扩展板与 Arduino UNO 的接线示意图：
+排针间距：2.54mm
 
-```mermaid
-flowchart LR
-    A["KEYES IIC接口转换扩展板"] 
-    A -- VCC --> B["5V"]
-    A -- GND --> C["GND"]
-    A -- SDA --> D["A4 (SDA)"]
-    A -- SCL --> E["A5 (SCL)"]
-    A -- 其他模块 --> F["多个传感器模块"]
+尺寸：50*40 *12mm
+
+重量：9.2g
+
+## **使用方法**
+
+接线图：（请按照实际情况接入）
+
+```
+点阵模块---------------------------I2C模块----------------------Arduino UNO主板
+SCL                               SCL                                SCL
+SDA                               SDA                                SDA
+ V                                 V                                 5V/3.3V
+GND                               GND                                GND
 ```
 
-1. 将扩展板的 VCC 引脚连接到 Arduino 的 5V；
-2. 将扩展板的 GND 引脚连接到 Arduino 的 GND；
-3. 将 SDA 引脚连接到 Arduino 的 A4（SDA）；
-4. 将 SCL 引脚连接到 Arduino 的 A5（SCL）；
-5. 连接其他传感器模块到扩展板的 I2C 接口。
-
-### 3.2 示例代码
 以下是控制 8 个 KE2058 点阵模块的示例代码：
 
-```cpp
-#include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_LEDBackpack.h>
+使用Arduino IDE上传下面代码到Arduino UNO主板(其他开发板请参照下面代码修改，不额外提供代码)
 
-Adafruit_BicolorMatrix matrix1 = Adafruit_BicolorMatrix();
-Adafruit_BicolorMatrix matrix2 = Adafruit_BicolorMatrix();
-Adafruit_BicolorMatrix matrix3 = Adafruit_BicolorMatrix();
-Adafruit_BicolorMatrix matrix4 = Adafruit_BicolorMatrix();
-Adafruit_BicolorMatrix matrix5 = Adafruit_BicolorMatrix();
-Adafruit_BicolorMatrix matrix6 = Adafruit_BicolorMatrix();
-Adafruit_BicolorMatrix matrix7 = Adafruit_BicolorMatrix();
-Adafruit_BicolorMatrix matrix8 = Adafruit_BicolorMatrix();
+[重点：先点此下载导入库文件](./KE0154.7z)
 
-void setup() {
-  Wire.begin();
-  matrix1.begin(0x70); // 地址 0x70
-  matrix2.begin(0x71); // 地址 0x71
-  matrix3.begin(0x72); // 地址 0x72
-  matrix4.begin(0x73); // 地址 0x73
-  matrix5.begin(0x74); // 地址 0x74
-  matrix6.begin(0x75); // 地址 0x75
-  matrix7.begin(0x76); // 地址 0x76
-  matrix8.begin(0x77); // 地址 0x77
+```c
+#include <Matrix.h>
+Matrix myMatrix1(A4,A5);
+Matrix myMatrix2(A4,A5);
+Matrix myMatrix3(A4,A5);
+Matrix myMatrix4(A4,A5);
+uint8_t LedArray1[8]={0x00,0x00,0x18,0x3c,0x7e,0x66,0x00,0x00};
+uint8_t LedArray2[8]={0x00,0x18,0x3c,0x7a,0xff,0xff,0x66,0x00};
+uint8_t LedArray3[8]={0x00,0x18,0x24,0x42,0x81,0x99,0x66,0x00};
+uint8_t LedArray4[8]={0xff,0xe7,0xc3,0x81,0x00,0x00,0x99,0xff};
+uint8_t  LEDArray1[8];
+uint8_t  LEDArray2[8];
+uint8_t  LEDArray3[8];
+uint8_t  LEDArray4[8];
+void setup(){
+
+myMatrix1.begin(112);     //定义地址0x70的十进制是112
+myMatrix2.begin(113);
+myMatrix3.begin(114);
+myMatrix4.begin(115);
+}
+void loop(){
+        
+      for(int i=0; i<8; i++)
+  {
+
+    LEDArray1[i]=LedArray1[i];
+    for(int j=7; j>=0; j--)
+    {
+      if((LEDArray1[i]&0x01)>0)
+      myMatrix1.drawPixel(j, i,1);
+      LEDArray1[i] = LEDArray1[i]>>1;
+    }
+  }
+  myMatrix1.writeDisplay();
+  for(int i=0; i<8; i++)
+  {
+    LEDArray2[i]=LedArray2[i];
+    for(int j=7; j>=0; j--)
+    {
+      if((LEDArray2[i]&0x01)>0)
+      myMatrix2.drawPixel(j, i,1);
+      LEDArray2[i] = LEDArray2[i]>>1;
+    }
+  }
+  myMatrix2.writeDisplay();
+   for(int i=0; i<8; i++)
+  {
+    LEDArray3[i]=LedArray3[i];
+    for(int j=7; j>=0; j--)
+    {
+      if((LEDArray3[i]&0x01)>0)
+      myMatrix3.drawPixel(j, i,1);
+      LEDArray3[i] = LEDArray3[i]>>1;
+    }
+  }
+  myMatrix3.writeDisplay();
+  for(int i=0; i<8; i++)
+  {
+    LEDArray4[i]=LedArray4[i];
+    for(int j=7; j>=0; j--)
+    {
+      if((LEDArray4[i]&0x01)>0)
+      myMatrix4.drawPixel(j, i,1);
+      LEDArray4[i] = LEDArray4[i]>>1;
+    }
+  }
+  myMatrix4.writeDisplay();
 }
 
-void loop() {
-  // 在这里添加显示图案的代码
-  // 例如，显示不同的图案在不同的点阵模块上
-}
 ```
 
----
+我们利用UNO R3板和扩展板控制8个KE2058 Keyes brick 8X8点阵模块(可选地址)显示不同图案，结果如下图。（这里不同点阵可以显示不图案是因为点阵自身可以更换不同地址，并非I2C模块修改的地址）
 
-## 4. 注意事项
-1. **电源输入**：确保工作电压为 DC 5V，避免损坏扩展板和连接的模块。
-2. **连接牢固**：在插拔杜邦线时，确保连接牢固，避免接触不良。
-3. **I2C 地址**：确保每个传感器模块的 I2C 地址不同，以避免冲突。
-4. **温度范围**：确保工作环境适合模块的工作温度。
-
----
-
-## 5. 参考链接
-- **开发辅助**  
-  - [Arduino IDE 下载](https://www.arduino.cc/en/software)  
-  - [I2C 通信指南](https://learn.adafruit.com/adafruit-i2c-lcd-backpack)  
-
-如有更多疑问，请联系 Keyes 官方客服或加入相关创客社区交流。祝使用愉快！
+![img](./media/doc_20251204135704_a2c4e6b8-1d3f-5e7a-9c0b-4f6e8a2d1c3b.png) 
