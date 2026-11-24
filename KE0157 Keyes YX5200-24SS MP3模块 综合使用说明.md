@@ -224,7 +224,7 @@ void loop() {
 | 插播错误         | 7E FF 06 40 00 00 07 xx xx EF | 插播只允许在播放的状态下进行  |
 | 播放 TF 卡错误   | 7E FF 06 40 00 00 08 xx xx EF | TF 卡读取失败或者 TF 卡被拔出 |
 | FLASH 初始化出错 | 7E FF 06 40 00 00 09 xx xx EF | FLASH 里面的文件系统信息错误  |
-| 进入睡眠         | 7E FF 06 40 00 00 0A xx xx EF | 进入 SLEPP 模式提醒           |
+| 进入睡眠         | 7E FF 06 40 00 00 0A xx xx EF | 进入 SLEEP 模式提醒           |
 
 ---
 
