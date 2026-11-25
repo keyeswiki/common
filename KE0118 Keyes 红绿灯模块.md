@@ -121,5 +121,3 @@ void loop() {
 ## 10. 参考链接  
 - [LED 原理介绍 (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)  
 - [Arduino Create](https://create.arduino.cc/) (在线编程平台)
-
-通过 **KE0118 Keyes 红绿灯模块**，你可以在 Arduino 等开发平台中轻松实现趣味的交通灯模拟或多重指示灯效果，适合课堂教学、DIY 项目与原型设计。祝你使用愉快、创意无限！

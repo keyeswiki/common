@@ -192,4 +192,3 @@ void loop() {
 
 - [MFRC522 数据手册](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)
 - [MFRC522 Arduino 库](https://github.com/miguelbalboa/rfid)
-
